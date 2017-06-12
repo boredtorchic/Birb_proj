@@ -12,4 +12,9 @@ Keep track of how many guesses the user has taken, and when the game ends, print
 
 """
 
-
+import random
+Win = random.randint(0,100)
+print Win
+user_input = raw_input("guess a number between 0 and 100: ")
+if user_input == Win:
+    print "good job you win"

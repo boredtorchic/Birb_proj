@@ -1,13 +1,18 @@
 # Name:
 # Date:
+txt1= "welcome to the Fibonacci generator, type how many numbers should be generated"
+user_input = int(raw_input("put in some number you: "))
+f=1
+l=0
+n=f+l
+f=n
+l=f
 
-# proj02_02: Fibonaci Sequence
 
-"""
-Asks a user how many Fibonacci numbers to generate and generates them. The Fibonacci 
-sequence is a sequence of numbers where the next number in the sequence is the sum of the 
-previous two numbers in the sequence. The sequence looks like this: 
-1, 1, 2, 3, 5, 8, 13...
-"""
+for number in range(user_input):
+    if user_input > 0:
+        print user_input,
+
+        user_input -= 1
 
 
