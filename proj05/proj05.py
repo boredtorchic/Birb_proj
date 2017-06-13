@@ -19,8 +19,7 @@ def prime(num):
     :param num: int
     :return: bool
     """
-    return False
-
+   ##
 # Part II
 
 def intersection(lst1, lst2):
@@ -30,7 +29,15 @@ def intersection(lst1, lst2):
     :param lst2: list, any type
     :return: list, any type
     """
-    return ["test"]
+    list1 = [2,4,5]
+    list2 = [2,8,6]
+#def listfunc(
+ans_list = []
+#if list1[0] is in list2:
+    #print "kcuf yeah"
+    #ans.append list1[0]
+#return ans)
+   # return ["test"]
 
 # Part III
 
@@ -41,8 +48,18 @@ def find_ab(side1, side2, side3):
     :param side2: int or float
     :param side3: int or float
     :return: list of 2 ints or floats
-    """
-    return [0, 0]
+    """"" \
+    ans_list1 = []
+def funclist3(side1,side2,side3)
+if side1 + side2 <= side3
+    ans.append(side1,side2)
+else: if side1 + side3 <= side2:
+    ans.append(side1,side3)
+    else: side2 + side3 <= side1:
+ans.append(side2,side3)
+print ans
+
+return funclist3
 
 def find_c(side1, side2, side3):
     """
@@ -52,6 +69,18 @@ def find_c(side1, side2, side3):
     :param side3: int or float
     :return: int or float
     """
+    ans_list1 = []
+
+
+def funclist4(side1, side2, side3)
+    if side1 + side2 <= side3
+        ans.append(side3)
+    else:
+        if
+    side1 + side3 <= side2:
+    ans.append(side2)
+    else: side2 + side3 <= side1:
+    ans.append(side1)
     return 0
 
 def square(side):
@@ -60,6 +89,7 @@ def square(side):
     :param side: int or float
     :return: int or float
     """
+    raw_input * raw_input
     return 0
 
 def pythagorean(a,b,c):
@@ -70,6 +100,8 @@ def pythagorean(a,b,c):
     :param c: int or float
     :return: bool
     """
+
+    pythagorean()
     return False
 
 def is_right(side1, side2, side3):
@@ -80,6 +112,17 @@ def is_right(side1, side2, side3):
     :param side3: int or float
     :return: bool
     """
+    user_input10 = raw_input("type in the first side ")
+    user_input20 = raw_input("type in the second side ")
+    user_input30 = raw_input("type in the third side ")
+    A = int(user_input10) * int(user_input10)
+    B = int(user_input20) * int(user_input20)
+    C = int(user_input30) * int(user_input10)
+
+    if A + B == C:
+        print"yes this is a right triangle"
+    else:
+        print"no this is not a right triangle"
     return False
 
 # TESTS
@@ -166,3 +209,16 @@ if is_right(9, 3, 4):
     print("Test 12: FAIL")
 else:
     print("Test 12: PASS")
+
+Vine_whip = 30
+tackle = 20
+ember = 30
+bubble = 30
+sqrtle [bubble,tackle]
+char [ember,tackle]
+bulb [Vine_whip,tackle]
+
+sqrtle_hp = 100
+bulb_hp = 110
+char_hp = 100
+
